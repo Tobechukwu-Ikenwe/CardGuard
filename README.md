@@ -16,15 +16,13 @@ This project is a **robust credit card validation tool** written in C++, combini
 - `entropy` measures randomness like evaluating how unpredictable a lock combination is.
 - `repetition_check()` prevents weak “copy-paste” numbers.
 
-This approach is designed not only for correctness but also for **learning and clarity**, reflecting how I would document and engineer real-world systems at Google.
+This approach is designed not only for correctness but also for learning and clarity.
 
----
 
 ## Safety Note
 
 All input is treated locally. The tool does **not** store, transmit, or log actual credit card data. The **MasterCard test number** in our examples is a **standard test number** used for demonstrations in payment systems. It cannot be used to make real purchases. 
 
----
 
 ## Project Structure
 
